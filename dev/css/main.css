@@ -1,0 +1,36 @@
+body {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background:#ffffff repeat-x;
+        font:13px/15px Futura, "Trebuchet MS", Arial, sans-serif; color:#58595b;
+
+  }
+
+p{font: 12px/14px Futura, "Trebuchet MS", Arial, sans-serif; margin:0 0 7px 0; padding:0 0 7px 0;}
+h1, h1 a{color:#f26534; font: 30px/35px BreuerHeadlinePRIMEWeb, Verdana, Arial, Helvetica, sans-serif; padding:0 15px 10px 0px;}
+h2, h2 a{color:#f26534; font: 22px BreuerHeadlinePRIMEWeb, Verdana, Arial, Helvetica, sans-serif; padding:5px 15px 3px 0px;}
+h3, h3 a{color:#58595b; font: 15px/18px BreuerTextBold, Verdana, Arial, Helvetica, sans-serif; padding:7px 15px 3px 0px;}
+h4, h4 a{color:#909090; font:bold 12px/14px Verdana, Arial, Helvetica, sans-serif; padding:7px 15px 4px 0px;}
+h5, h5 a{color:#606060; font:bold 12px/14px Verdana, Arial, Helvetica, sans-serif; padding:7px 15px 4px 0px;}
+h6, h6 a{color:#e3000b; font:bold 12px/14px Verdana, Arial, Helvetica, sans-serif; padding:7px 15px 4px 0px;}
+a{color:#58595b;}
+a:hover{color:#f7942f; text-decoration:underline;}
+
+.container {max-width:1300px;}
+.main-wrapper { height: auto !important; min-height: 100%;}
+.maincontent{
+   border: solid 1px rgba(0, 0, 0, 0.13);
+   min-height: 590px;
+   padding: 10px;
+   background-color: #FFF;
+      }
+.maincontent .accordion-heading .accordion-toggle {background-color:#f5f5f5;color:#222;text-decoration:none;background-image: url(../img/acc_icons.png);background-position: 98% 12px;background-repeat:no-repeat}
+.maincontent .accordion-heading .acc-in {background-position:98% -34px}
+
+.page-header{margin-top:-12px;}
+
+.dropdown-menu { -webkit-border-radius: 0 0 0 0; -moz-border-radius: 0 0 0 0; -ms-border-radius: 0 0 0 0; border-radius: 0 0 0 0; }
+.dropdown-menu a { padding: 2px 15px; margin: 0 5px; -webkit-border-radius: 4px 4px 4px 4px; -moz-border-radius: 4px 4px 4px 4px; -ms-border-radius: 4px 4px 4px 4px; border-radius: 4px 4px 4px 4px; }
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a { background: #f7942f }
+.dropdown-menu .divider { margin: 9px 1px 7px }
+
