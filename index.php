@@ -4,7 +4,6 @@
  * Dit zowel voor DNS, ReverseDNS als spamcontroles uit te voeren
  */
 
-include_once('../../config_portal.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
