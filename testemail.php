@@ -11,10 +11,10 @@ try {
     $mail->SMTPSecure = "tls";
 	$mail->Port       = 587;
 	$mail->Host       = "smtp.telenet.be";
-	$mail->Username   = "tony.vanluyten@telenet.be";
-	$mail->Password   = "leenhaag";
-	$mail->From       = "tony.vanluyten@telenet.be";
-	$to = "glhermans@gmail.com";
+	$mail->Username   = "example@telenet.be";
+	$mail->Password   = "";
+	$mail->From       = "example@telenet.be";
+	$to = "hallo@telenet.be";
 	$mail->AddAddress($to);
 
     $mail->IsSendmail();
